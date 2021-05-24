@@ -30,5 +30,5 @@ status = "black"
   document.getElementById('mode').innerHTML = "Dark Mode"
     document.getElementById('mode').style.color = status
 }*/
-  alert('Coming soon for this page!')
+  Alert('Coming soon for this page!')
 }
