@@ -13,7 +13,7 @@ function fa() {
 
 }
 function darkmode() {
-  var style = document.body.style
+/*  var style = document.body.style
   var status = "black"
   if(document.body.backgroundColor === "black") {
 status = "white"
@@ -29,5 +29,6 @@ status = "black"
   style.backgroundColor = status
   document.getElementById('mode').innerHTML = "Dark Mode"
     document.getElementById('mode').style.color = status
-}
+}*/
+  alert('Coming soon for this page!')
 }
