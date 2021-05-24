@@ -14,11 +14,13 @@ function fa() {
 }
 function darkmode() {
   var style = document.body.style
-  var status = "white"
-  if(document.body.backgroundColor === "black") status = "black"
+  var status = "black"
+  if(document.body.backgroundColor === "black") {
+status = "white"
     document.getElementById('rules').style.color = status
 
   style.backgroundColor = status
-  document.getElementById('mode').innerHTML = status === "white" ? "Dark mode" : "Light mode"
+  document.getElementById('mode').innerHTML = "Light Mode"
     document.getElementById('mode').style.color = status
+}
 }
