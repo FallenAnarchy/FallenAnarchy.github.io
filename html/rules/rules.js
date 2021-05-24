@@ -22,5 +22,11 @@ status = "white"
   style.backgroundColor = status
   document.getElementById('mode').innerHTML = "Light Mode"
     document.getElementById('mode').style.color = status
-}
+} else {
+status = "black"
+    document.getElementById('rules').style.color = status
+
+  style.backgroundColor = status
+  document.getElementById('mode').innerHTML = "Dark Mode"
+    document.getElementById('mode').style.color = status
 }
