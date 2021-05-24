@@ -30,3 +30,4 @@ status = "black"
   document.getElementById('mode').innerHTML = "Dark Mode"
     document.getElementById('mode').style.color = status
 }
+}
