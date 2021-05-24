@@ -14,9 +14,11 @@ function fa() {
 }
 function darkmode() {
   var style = document.body.style
-    document.getElementById('rules').style.color = style.color === "white" ? "black" : "white"
+  var status = "white"
+  if(document.body.backgroundColor === "black") status = "black"
+    document.getElementById('rules').style.color = status
 
-  style.backgroundColor = style.backgroundColor === "white" ? "black" : "white"
-  document.getElementById('mode').innerHTML = style.backgroundColor === "white" ? "Dark mode" : "Light mode"
-    document.getElementById('mode').style.color = style.backgroundColor === "white" ? "white" : "black"
+  style.backgroundColor = status
+  document.getElementById('mode').innerHTML = status === "white" ? "Dark mode" : "Light mode"
+    document.getElementById('mode').style.color = status
 }
