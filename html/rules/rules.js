@@ -14,8 +14,8 @@ function fa() {
 }
 function darkmode() {
   var style = document.body.style
-  style.backgroundColor = style.backgroundColor === "white" ? "black" : "white"
+  style.backgroundColor = style.backgroundColor === "black" ? "black" : "white"
   document.getElementById('mode').innerHTML = style.backgroundColor === "white" ? "Dark mode" : "Light mode"
-    document.getElementById('mode').style.color = style.backgroundColor === "white" ? "Black" : "White"
-  document.getElementById('rules').style.color = style.color === "white" ? "Black" : "White"
+    document.getElementById('mode').style.color = style.backgroundColor === "white" ? "white" : "black"
+  document.getElementById('rules').style.color = style.color === "white" ? "white" : "black"
 }
